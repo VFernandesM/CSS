@@ -1,0 +1,100 @@
+body{
+    background-color: #f2f4f5;
+    margin: 0;
+}
+
+/*Centralizar o main*/
+main{
+    width:70%;
+    display: table;/*assume uma altura de acordo com que esta dentro dele*/
+    margin: 100px auto 0 auto;/*Significa 4 linhas de codigos, margin:top,bottom left,right*/
+}
+
+.card-conteiner{
+    width: 270px;
+    display: table;
+    float: left;
+    margin: 40px 40px 0 0;
+}
+
+.card{
+    width: 100%;/*largura maxima com card-conteiner que é 270px*/
+    display: table;/*altura dinâmica*/
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 8px 8px 12px rgb(0,0,0,0.15 );
+    padding: 15px;
+    box-sizing: border-box;/*coloca o elemento padding ou border para dentro*/
+}
+
+.card .image1{
+    width: 100%;/*conjuto de width,  max-width e height torna a imagem reponsiva, ou seja acompanha o tamanho da tela, pequena, média ou grande.*/
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    display: block;  
+}
+
+.card .card-cat{
+    margin-top: -55px;
+}
+
+.card-body{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: table;
+    font-size: 1em;
+    margin-top: 12px;
+}
+
+.card-body h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 800;
+    color:rgb(223, 68, 68);
+    margin: 0;
+}
+
+.card .card-body p{
+    display: block;
+    margin: 12px 0 12px 0;
+    font-size: 15px;
+    line-height: 14px;
+    color: #4a4a4a;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+
+.card .card-footer .btn{
+    width: 100%;
+}
+
+.card .card-footer{
+    width: 100%;
+    display: table;
+}
+
+
+/*Botoes*/
+
+.btn{
+    width: auto;
+    height: 40px;
+    display: table;
+    background-color: royalblue;
+    color:seashell;
+    font-size:16px;
+    text-transform: uppercase;/*todas as letras ficam em maíusculas*/
+    line-height: 40px;
+    text-decoration: none;
+    margin-top: 12px;
+    padding: 0 30px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
